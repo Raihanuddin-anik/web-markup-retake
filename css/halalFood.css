@@ -92,7 +92,7 @@ nav a {
 
 
 
-.haiti_section {
+.food_section {
     padding: 40px;
     display: flex;
     justify-content: space-between;
@@ -109,7 +109,10 @@ nav a {
 .Info_text {
     width: 40%;
     float: left;
-    
+  
+}
+.Info_img h4{
+    text-align: center;
 }
 .Info_text p::first-letter {
     color: blue;
@@ -136,9 +139,27 @@ nav a {
 }
 
 @media screen and (max-width: 868px) {
-    .haiti_section{
+    .food_section{
         display: block;
         margin: auto;
+    }
+    
+    .img_container{
+        width: 90%;
+    display: block;
+    align-items: center;
+    }
+    .Info_img {
+        width: 100%;
+        align-items: center;
+    }
+    .Info_text {
+        width: 80%;
+        float: left;
+      
+    }
+    .Info_img h4{
+        text-align: center;
     }
 }
 
