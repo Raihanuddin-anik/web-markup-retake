@@ -111,7 +111,7 @@ nav a {
     width: 50%;
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
     .Info_section {
         display: block;
         flex-direction: column;

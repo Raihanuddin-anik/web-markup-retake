@@ -64,7 +64,7 @@ nav a {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         margin-top: 6px;
