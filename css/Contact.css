@@ -1,0 +1,184 @@
+body {
+    font-family: "Trirong", serif;
+  }
+/* Nav bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul.navbar li a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a:hover:active {
+    color: blue;
+  }
+.Top_nav {
+    background-color: #0969C8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 868px) {
+    .navbar {
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .logo img {
+        width: 80px;
+        margin-left: 0px;
+    }
+
+    .Top_heading {
+        font-size: small;
+    }
+
+    .Top_description {
+        font-size: 12px;
+    }
+
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/* contact */
+
+
+h2{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.queries{
+    text-align: center;
+    display: block;
+}
+h4{
+    color: #DADD4E;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.radio_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+.contact_section{
+    background-color: #8382D3;
+    width: 80%;
+    margin: auto;
+    height: 150vh;
+    padding-top: 20px ;
+}
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* footer */
+.footer {
+    height: 120px;
+    background-color: black;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+
+}

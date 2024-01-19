@@ -1,0 +1,215 @@
+
+body {
+    font-family: "Trirong", serif;
+  }
+/* Nav bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul.navbar li a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.navbar a:hover:active {
+    color: blue;
+  }
+.Top_nav {
+    background-color: #0969C8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 868px) {
+    .navbar {
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .logo img {
+        width: 80px;
+        margin-left: 0px;
+    }
+
+    .Top_heading {
+        font-size: small;
+    }
+
+    .Top_description {
+        font-size: 12px;
+    }
+
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/* Main Section */
+.haiti_section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_container {
+    width: 43%;
+
+}
+
+.Info_img {
+    width: 80%;
+    align-items: center;
+    height: 320px;
+}
+
+.Info_text {
+    width: 40%;
+}
+
+.link_btn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    background-color: black;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    border-color: #333;
+    border-width: 2px;
+    border-style: none;
+}
+
+.link_btn a {
+    color: #fff;
+    text-decoration: none;
+}
+.link_btn_small_scrn{
+    display: none;
+}
+.special_text_Indian_res{
+    letter-spacing: 0.1rem;
+}
+@media screen and (max-width: 759px) {
+    .haiti_section {
+        padding: 20px;
+        display: block;
+        margin: auto;
+    }
+
+    .Heading_Street_Food {
+        display: block;
+        text-align: center;
+    }
+
+    .img_container {
+        width: 70%;
+        display: block;
+        margin: auto;
+
+    }
+
+    .Info_img {
+        width: 90%;
+        align-items: center;
+        height: 320px;
+        display: block;
+        margin: auto;
+    }
+
+    .Info_text {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    .link_btn {
+        display: none;
+    }
+
+    .link_btn_small_scrn a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .link_btn_small_scrn {
+        display: none;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 15px;
+        text-decoration: none;
+        background-color: black;
+        text-transform: uppercase;
+        margin: auto;
+        margin-top: 40px;
+        cursor: pointer;
+        border-color: #333;
+        border-width: 2px;
+        border-style: none;
+    }
+}
+
+
+/* footer */
+.footer {
+    height: 120px;
+    background-color: black;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+
+}

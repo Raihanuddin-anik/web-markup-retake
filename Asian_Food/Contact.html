@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/Contact.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="Top_nav">
+            <nav class="logo">
+                <img src="../img/logo.jpg" title="restaurant" alt="logo">
+            </nav>
+            <ul class="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="StreetFood.html">Street Food</a></li>
+                <li><a href="IndianFood.html">Indian Food</a></li>
+                <li><a href="ChineseFood.html">Chinese Food</a></li>
+                <li><a href="HalalFood.html">Halal Food</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+      <main class="main_area">
+        <section class="contact_section">
+            <h2>CONTACT WITH US</h2>
+            <strong class="queries">Have any queries ?</strong>
+            <form class="contact-form" action="submit.php" method="post">
+                <legend>personal Information:</legend>
+
+                <label for="mrRadio">Title*</label>
+                <aside class="radio_container">
+                    <label for="mrRadio">Mr</label>
+                    <input type="radio" id="mrRadio" name="gender" value="mr">
+                    
+                    <label for="mrsRadio">Mrs</label>
+                    <input type="radio" id="mrsRadio" name="gender" value="mrs">
+                </aside>
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Email*</label>
+                <input type="email" value="Email" id="email" name="email" required>
+
+                <label for="email">Phone Number</label>
+                <input type="phone" value="phone" id="email" name="email" required>
+
+                <label for="message">Message*</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" value="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2024 Asian_Food Zuidoost</p>
+    </footer>
+</body>
+</html>

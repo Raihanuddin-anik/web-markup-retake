@@ -1,0 +1,294 @@
+body {
+    font-family: "Trirong", serif;
+  }
+body {
+    font-family: "Trirong", serif;
+  }
+/* Nav bar */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul.navbar li a:hover {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.navbar a:hover:active {
+    color: blue;
+  }
+.Top_nav {
+    background-color: #0969C8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 868px) {
+    .navbar {
+        flex-direction: column;
+        margin-top: 6px;
+    }
+
+    .logo img {
+        width: 80px;
+        margin-left: 0px;
+    }
+
+    .Top_heading {
+        font-size: small;
+    }
+
+    .Top_description {
+        font-size: 12px;
+    }
+
+    .navbar li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* main */
+
+
+.Info_section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Info_img {
+    width: 500px;
+    height: 320px;
+    margin-top: 10px;
+}
+
+.Info_text {
+    width: 50%;
+}
+
+@media screen and (max-width: 868px) {
+    .Info_section {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Info_img {
+        margin: auto;
+        display: block;
+        padding-top: 10px;
+    }
+
+    .Info_text {
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 536px) {
+    .Info_section {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Info_img {
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+
+    .Info_text {
+        margin: auto;
+    }
+}
+
+/* location */
+.location_section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.location_text {
+    padding-top: 10px;
+
+}
+
+.location_img {
+    width: 500px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 868px) {
+    .location_section {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .location_text {
+        margin: auto;
+        display: block;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .location_section {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .location_text {
+        margin: auto;
+        width: 300px;
+    }
+
+    .location_img {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* Food Section */
+.street_food {
+    display: flex;
+    justify-content: space-around;
+}
+
+.streetFood_img {
+    width: 350px;
+    height: 400px;
+}
+
+.streetFood_text {
+    width: 40%;
+}
+
+.heading_street_food {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding-right: 100px;
+
+}
+tr:nth-child(2n) {
+    background-color: #CFF;
+  }
+  tr:nth-child(2n+1){
+    background-color: #fff
+  }
+.bottom_text {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 868px) {
+    .street_food {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .streetFood_text {
+        width: 70%;
+        margin: auto;
+        display: block;
+
+    }
+    .streetFood_img{
+        margin: auto;
+        display: block;
+       
+    }
+}
+
+@media screen and (max-width:536px) {
+    .street_food {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .streetFood_text {
+        width: 70%;
+        margin: auto;
+        display: block;
+
+    }
+    .streetFood_img{
+        margin: auto;
+        display: block;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* footer */
+.footer {
+    height: 120px;
+    background-color: black;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+
+}
